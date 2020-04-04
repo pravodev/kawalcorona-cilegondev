@@ -1,0 +1,20 @@
+{
+    "name": "pravodev/kawalcorona-cilegondev",
+    "description": "Simple Package untuk mendapatkan data dari api.kawalcorona.com",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rifqi Khoeruman Azam",
+            "email": "pravodev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Pravodev\\KawalCoronaCilegondev\\": "src/",
+            "Pravodev\\KawalCoronaCilegondev\\Tests\\": "tests/"
+        }
+    }
+}
