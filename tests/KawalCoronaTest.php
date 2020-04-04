@@ -19,7 +19,6 @@ class KawalCoronaTest extends TestCase
         $this->assertObjectHasAttribute('meninggal', $data);
     }
 
-
     public function testGetProvinsi()
     {
         $corona = new KawalCorona();
@@ -44,4 +43,3 @@ class KawalCoronaTest extends TestCase
         $this->assertObjectHasAttribute('value', $data);
     }
 }
-
